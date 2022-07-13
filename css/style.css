@@ -5,6 +5,7 @@
  }
 header{ 
     background:#541554;
+    color: #fff;
 }
 h1{
     font-size: 64px;
@@ -14,33 +15,21 @@ h1{
 nav{
     padding: 20px;
 }
-.container{
-width:80%;
-margin:0 auto;
 
+.container{
+    width:80%;
+    margin:0 auto;
 
 }
 section{
-list-style-type:none;
-
-vertical-align: middle;
-padding:20px;
-/* text-transform: capitalize; */
-cursor:pointer;
-
-
+    padding-top: 50px;
 }
+
 button{
     padding:20px;
     border:2px solid white;
     border-radius:2px;
-
-}
-.sales{
-    background-color: transparent;
-    color: white;
-    font-weight:bold;
-    
+ 
 }
 .free{
     background:white;
@@ -68,9 +57,7 @@ float: left;
     padding:20px
 }
 .email{
-    float: left;
-    background-color: transparent;
-    color:green;
+
     border-radius: 4px;
 }
 .with{  
@@ -81,13 +68,7 @@ float: left;
     border-radius:4px ;
     
 }
-.p3{
-    float: right;
-    padding-top:15px;
-}
-.hero{
-    color: #fff;
-}
+
 #Googleimg{
     background-color: white;
     float: left;
@@ -95,22 +76,47 @@ float: left;
 
 .orange{
     color:orange;
-}
-.nav-left{
-    width:50%;
-    float: left;
     
-}
-.nav-right{
-    width:none;
-    float: right;
-    margin-bottom:30px;
 }
 .p1{
     font-size:30px;
-    margin:30px 0;
+    margin:30 px 0;
 }
 .p2{
     font-size:30px;
-    margin-top: 30px;;
+    margin-top: 30px;
 }
+.align{
+  text-align: center;
+  margin:20px;
+}
+.line1 li,.line2 li{
+    padding:20px 50px;
+    vertical-align: middle;
+} 
+.line1 img,.line2 img{
+    width: 100px;
+}
+.companies{
+    margin-bottom: 30px;    
+}
+
+.left{
+    float:left;
+width: 50%;
+
+ 
+}
+
+.right{
+    float: right;
+    width: 50%;
+    }
+  section h4{
+   font-size: 70px;
+ }
+.font{
+font-size: 30px;
+ }
+   
+    
